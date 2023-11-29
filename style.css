@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: absolute;
+  background-color: black;
+  height: 35%;
+  width: 100%;
+}
+
+main {
+  position: absolute;
+  top: 38%;
+  left: 15%;
+  width: 70%;
+}
+
+main h2 {
+  margin-bottom: 25px;
+}
+
+main p {
+  text-align: justify;
+}
+
+.table-section {
+  position: absolute;
+  top: 61%;
+  background-color: rgb(20, 20, 161);
+  height: 35%;
+  width: 100%;
+}
+
+.logo img {
+  position: relative;
+  height: 160px;
+  left: 40%;
+}
+
+.company-name {
+  position: absolute;
+  left: 15%;
+  bottom: 20%;
+  color: white;
+}
+
+.navbar {
+  position: absolute;
+  bottom: 0%;
+  left: 15%;
+  background-color: rgb(231, 231, 41);
+  height: 15%;
+  width: 70%;
+}
+
+.navbar a {
+  position: relative;
+  left: 68%;
+  top: 30%;
+  text-decoration: none;
+  margin: 10px 10px 10px 10px;
+  color: white;
+}
+
+.btn-down {
+  position: relative;
+  left: 40%;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 6px 30px 6px 30px;
+  color: white;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.tables-section-text {
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 70%;
+}
+
+.tables-section-text h2 {
+  color: white;
+}
+
+.main-table {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  width: 70%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  width: 100%;
+}
+
+.first-column {
+  width: 30%;
+}
+
+.second-column {
+  width: 70%;
+}
+
+tbody tr td:last-child {
+  text-align: right;
+  padding-right: 15px;
+}
+
+tfoot tr td {
+  text-align: right;
+  padding-right: 15px;
+}
+
+table,
+th,
+td {
+  height: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  color: white;
+  text-align: center;
+}
+
+.contact-section {
+  position: absolute;
+  top: 96%;
+  height: 35%;
+  width: 100%;
+}
+
+.contact-info {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  width: 70%;
+}
+
+.contact-info ul {
+  margin: 20px 0px 0px 40px;
+}
+
+.go-up {
+  position: absolute;
+  left: 49%;
+  top: 60%;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  top: 125%;
+  background-color: rgb(231, 231, 41);
+  text-align: center;
+  color: white;
+  padding: 15px 1px;
+}
